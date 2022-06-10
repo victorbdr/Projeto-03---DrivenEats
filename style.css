@@ -1,0 +1,250 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  width: 414px;
+  height: 92px;
+}
+header h1,
+h5 {
+  color: #ffff;
+  margin-top: 6px;
+  margin-left: 21px;
+}
+header h1 {
+  font-family: 'Righteous', cursive;
+}
+section {
+  background: #e5e5e5;
+}
+.principal {
+  font-family: 'Righteous', cursive;
+  margin-left: 19px;
+  margin-top: 113px;
+  margin-bottom: 17px;
+}
+.pratos {
+  overflow-x: scroll;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 16px;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 0px;
+}
+.pratos img {
+  margin-top: 18px;
+  margin: 14px;
+  width: 144px;
+  height: 87px;
+}
+.frango {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #fff;
+}
+.carne {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.macarrao {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.pastel {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.hotdog {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.secundario {
+  font-family: 'Righteous', cursive;
+  width: 231px;
+  height: 25px;
+  margin-top: 27px;
+  margin-bottom: 17px;
+  margin-left: 19px;
+}
+.bebidas {
+  overflow-x: scroll;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 0px;
+}
+.bebidas img {
+  margin-top: 18px;
+  margin: 14px;
+  width: 144px;
+  height: 87px;
+}
+.coca {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.fanta {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.guarana {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.laranja {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.uva {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.ultimo {
+  font-family: 'Righteous', cursive;
+  width: 231px;
+  height: 25px;
+  margin-top: 27px;
+  margin-bottom: 17px;
+  margin-left: 19px;
+}
+.sobremesa {
+  overflow-x: scroll;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 0px;
+  margin-bottom: 92px;
+}
+.sobremesa img {
+  margin-top: 18px;
+  margin: 14px;
+  width: 144px;
+  height: 87px;
+}
+.donuts {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.brigadeiro {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.petitgateau {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.tortalimao {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.sorvete {
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+h1 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 55px;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+h3 {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a6a6a6;
+}
+h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #ffff;
+  width: 414px;
+  height: 92px;
+  margin-top: 150px;
+}
+.botao {
+  margin-left: 25px;
+  margin-top: 23px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 364px;
+  height: 61px;
+  border-radius: 50px;
+  background: #cbcbcb;
+}
+.botao h5 {
+  color: #ffff;
+}
