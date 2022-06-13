@@ -1,0 +1,194 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  width: 100vw;
+  height: 92px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header h1,
+h5 {
+  color: #ffff;
+  margin-top: 6px;
+  margin-left: 21px;
+}
+
+h6 {
+  font-size: 26px;
+}
+header h1 {
+  font-family: 'Righteous', cursive;
+}
+section {
+  background: #e5e5e5;
+}
+.principal {
+  font-family: 'Righteous', cursive;
+  margin-left: 19px;
+  padding-top: 113px;
+  margin-bottom: 17px;
+}
+.pratos {
+  overflow-x: scroll;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 16px;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 0px;
+}
+.pratos img {
+  margin-top: 18px;
+  margin: 14px;
+  width: 144px;
+  height: 87px;
+}
+.foodname {
+  position: relative;
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #fff;
+}
+
+.secundario {
+  font-family: 'Righteous', cursive;
+  width: 231px;
+  height: 25px;
+  margin-top: 27px;
+  margin-bottom: 17px;
+  margin-left: 19px;
+}
+.bebidas {
+  overflow-x: scroll;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 0px;
+}
+.bebidas img {
+  margin-top: 18px;
+  margin: 14px;
+  width: 144px;
+  height: 87px;
+}
+.drinkname {
+  position: relative;
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+.ultimo {
+  font-family: 'Righteous', cursive;
+  width: 231px;
+  height: 25px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  margin-left: 19px;
+}
+.sobremesa {
+  overflow-x: scroll;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 0px;
+  padding-bottom: 108px;
+}
+.sobremesa img {
+  margin-top: 18px;
+  margin: 14px;
+  width: 144px;
+  height: 87px;
+}
+.dessertname {
+  position: relative;
+  border-radius: 9px;
+  margin-right: 16px;
+  width: 172px;
+  height: 216px;
+  background: #ffff;
+}
+h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+h1 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 55px;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+h3 {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a6a6a6;
+}
+h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.selecionado {
+  box-shadow: inset 0px 0px 0px 5px #32b72f;
+}
+.selecionado ion-icon{
+  display:flex;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #ffff;
+  width: 414px;
+  height: 92px;
+  margin-top: 150px;
+}
+.botao {
+  margin-left: 25px;
+  margin-top: 23px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 364px;
+  height: 61px;
+  border-radius: 50px;
+  background: #cbcbcb;
+}
+.botao  {
+  color: #ffff;
+}
+
+
+ion-icon{
+  color:#32b72f;
+  position:absolute;
+  display:none;
+  bottom:10px;
+  right:10px;
+}
+.button{
+background-color:#32B72F;
+}
+

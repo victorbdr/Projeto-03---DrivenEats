@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driven eats</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <h1>DrivenEats</h1>
+        <h5>Sua comida em 6 minutos</h5>
+      </div>
+    </header>
+    <section>
+      <div class="principal">
+        <h6>Primeiro, seu prato</h6>
+      </div>
+      <div class="pratos">
+        <div class="foodname" onclick="chooseFood(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://img.elo7.com.br/product/original/22565B3/adesivo-parede-prato-comida-frango-salada-restaurante-lindo-adesivo-parede.jpg"
+          />
+          <h2>Frango Assado</h2>
+          <h3>Frango, salada e batata</h3>
+          <h4>R$19,99</h4>
+        </div>
+        <div class="foodname" onclick="chooseFood(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://s.yimg.com/ny/api/res/1.2/k6WGCdKrvl2qKLbBTtoaNQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzMQ--/https://s.yimg.com/os/creatr-uploaded-images/2021-04/ad997cb0-a841-11eb-acee-5de60d49d4bb"
+          />
+          <h2>Prato executivo</h2>
+          <h3>Carne, arroz, feijao, batata e salada</h3>
+          <h4>R$25,99</h4>
+        </div>
+        <div class="foodname" onclick="chooseFood(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://pubimg.band.uol.com.br/files/b28b567bb0fe51168a8f.png"
+          />
+          <h2>Macarrão</h2>
+          <h3>Macarrão ao molho bolognesa</h3>
+          <h4>R$23,00</h4>
+        </div>
+        <div class="foodname" onclick="chooseFood(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://guiadopastel.com.br/wp-content/uploads/2020/04/4-receitas-de-massa-de-pastel-dourado-1200x840.jpg"
+          />
+          <h2>Pastel</h2>
+          <h3>5 Pastéis com sabores variados</h3>
+          <h4>R$30,00</h4>
+        </div>
+        <div class="foodname" onclick="chooseFood(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://www.perdigao.com.br/assets/_images/5f79fb9c5259bf77a8b1e9750b81e3bb4e9f093b.webp"
+          />
+          <h2>Hot Dog</h2>
+          <h3>Hot dog tradicional</h3>
+          <h4>R$15,99</h4>
+        </div>
+      </div>
+      <div class="secundario">
+        <h6>Agora, sua bebida</h6>
+      </div>
+      <div class="bebidas">
+        <div class="drinkname"onclick="chooseDrink(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://riomarrecife.com.br/recife/2019/07/refrigerante_coca_cola_350ml.png"
+          />
+          <h2>Coca Cola</h2>
+          <h3>Coca cola 350ml</h3>
+          <h4>R$4,99</h4>
+        </div>
+        <div class="drinkname"onclick="chooseDrink(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="https://www.drogariaminasbrasil.com.br/media/product/dc1/refrigerante-fanta-laranja-lata-350ml-6eb.jpg"
+          />
+          <h2>Fanta Laranja</h2>
+          <h3>Fanta laranja 350ml</h3>
+          <h4>R$4,99</h4>
+        </div>
+        <div class="drinkname"onclick="chooseDrink(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="https://www.imigrantesbebidas.com.br/bebida/images/products/full/1935-refrigerante-guarana-antarctica-lata-350ml.jpg"
+            ;
+          />
+          <h2>Guarana Antartica</h2>
+          <h3>Guarana 350ml</h3>
+          <h4>R$4,99</h4>
+        </div>
+        <div class="drinkname"onclick="chooseDrink(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            class="https://www.botecogois.com.br/wp-content/uploads/2021/01/suco-laranja-2.jpg"
+          />
+          <h2>Suco de Laranja</h2>
+          <h3>Suco de laranja 500ml</h3>
+          <h4>R$6,99</h4>
+        </div>
+        <div class="drinkname"onclick="chooseDrink(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="https://mentejovemcorpojovem.weebly.com/uploads/2/5/6/6/25668031/5351647_orig.jpg"
+          />
+          <h2>Suco de Uva</h2>
+          <h3>Suco de uva 500ml</h3>
+          <h4>R$6,99</h4>
+        </div>
+      </div>
+      <div class="ultimo">
+        <h6>Por fim, sua sobremesa</h6>
+      </div>
+      <div class="sobremesa">
+        <div class="dessertname"onclick="chooseDessert(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="http://cearensidade.com.br/wp-content/uploads/2020/06/52daeed3-0258-4c5a-917b-499588bda333.jpg"
+          />
+          <h2>Donuts</h2>
+          <h3>3 Donuts sabores da sua escolha</h3>
+          <h4>R$10,99</h4>
+        </div>
+        <div class="dessertname"onclick="chooseDessert(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2016/11/brigadeiro.jpg"
+          />
+          <h2>Brigadeiro</h2>
+          <h3>10 Unidades de brigadeiro</h3>
+          <h4>R$10,99</h4>
+        </div>
+        <div class="dessertname"onclick="chooseDessert(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+          <img
+            src="https://img.cybercook.com.br/receitas/434/petit-gateau.jpeg"
+          />
+          <h2>Petit Gateau</h2>
+          <h3>Delicioso petit gateu</h3>
+          <h4>R$18,99</h4>
+        </div>
+        <div class="dessertname"onclick="chooseDessert(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="https://t2.rg.ltmcdn.com/pt/posts/3/2/1/torta_gelada_de_limao_4123_600_square.jpg"
+          />
+          <h2>Torta de Limão</h2>
+          <h3>Torta especial da casa</h3>
+          <h4>R$21,99</h4>
+        </div>
+        <div class="dessertname"onclick="chooseDessert(this)">
+          <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+
+          <img
+            src="https://d2r9epyceweg5n.cloudfront.net/stores/001/203/799/products/curso-de-sorvete-de-massa-21-4cac9b98e6bed5d8ea15906259392499-1024-1024.jpg"
+          />
+          <h2>Sorvete</h2>
+          <h3>Sorvete 3 bolas da sua ecolha</h3>
+          <h4>R$10,50</h4>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="botao">
+        <div class="finalizar" onclick="changeButton(this)">Selecione os 3 itens para fechar o pedido</div>
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
